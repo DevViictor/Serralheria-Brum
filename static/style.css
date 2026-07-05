@@ -1,0 +1,210 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+#principal{
+    width: 100%;
+    background-color: rgb(62, 53, 50);
+}
+
+#cabecalho1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 120px; 
+    background-color: black;
+    color: rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#Logo {
+    width: 70px;
+    height: 70px;
+    padding: 0; 
+}
+
+#titulo {
+    font-size: 24px;
+    color: rgb(255, 208, 0);
+    padding: 0; 
+}
+
+
+.image{
+    width:100%;
+    height: 500px;
+    margin: 0;
+}
+
+#Serviços{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(255, 208, 0);
+    border-top:4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+}
+
+#Cards{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    background-color: rgb(24, 22, 22);
+    width: 100%;
+    height: 100%;
+}
+
+.ServicosP img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    padding: 0;
+}
+
+.ServicosP{
+    border-top: 4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+    width: 170px;
+    background-color: #111;
+    color: rgb(255, 208, 0);
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+}
+
+
+#BackServico{
+    background-color: rgb(28, 28, 28);
+    height: 500px;
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 20px; /* espaço entre imagem e texto */
+}
+
+#Conteudo2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ComprometimentoTexto{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(255, 208, 0);
+    border-top:4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+}
+
+#ProducaoIMG{
+    border-top: 4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+    margin-left: 30px;
+    width: 450px;
+    height: 450px;
+}
+
+#Apservicos{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Conteudo3{
+    padding-top: 20px;
+}
+
+#Sobre{
+    
+    
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 208, 0);
+    border-top:4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+}
+
+#SobreBack{
+    
+    padding-top: 20px;
+    background-color: rgb(28, 28, 28);
+    height: 500px;
+    display: flex;
+    align-items: center; /* alinha verticalmente */
+    gap: 20px; /* espaço entre imagem e texto */
+
+}
+
+#SobreAp{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#SobreIMG{
+    border-top: 4px solid rgb(255, 208, 0);
+    border-bottom: 4px solid rgb(255, 208, 0);
+    margin-right: 30px;
+    width: 450px;
+    height: 450px;
+}
+
+#Final{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 15px;
+    padding: 20px;
+
+    color: rgb(251, 251, 251);
+
+    
+}
+
+
+#Contatos{
+    
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    padding: 0 20px; 
+    align-items: center;
+    font-size: 24px;
+    color: rgb(251, 251, 251);
+    padding: 0; 
+}
+
+
